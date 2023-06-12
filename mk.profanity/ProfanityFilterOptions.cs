@@ -6,9 +6,9 @@ namespace mk.profanity
 {
     public class ProfanityFilterOptions
     {
-        internal List<string>? UseAllowWordList { get; private set; } = null;
-        internal List<string>? UseBadWordsList { get; private set; } = null;
-        internal List<string>? UseAppendBadWordsList { get; private set; } = null;
+        internal List<string> UseAllowWordList { get; private set; } = null;
+        internal List<string> UseBadWordsList { get; private set; } = null;
+        internal List<string> UseAppendBadWordsList { get; private set; } = null;
         internal bool UseLevenshtein { get; private set; } = false;
 
         /// <summary>

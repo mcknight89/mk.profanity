@@ -1,13 +1,3 @@
-E:\Source\mk.profantiy\mk.profanity\bin\Debug\netstandard2.1\mk.profanity.deps.json
-E:\Source\mk.profantiy\mk.profanity\bin\Debug\netstandard2.1\mk.profanity.dll
-E:\Source\mk.profantiy\mk.profanity\bin\Debug\netstandard2.1\mk.profanity.pdb
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.csproj.AssemblyReference.cache
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.GeneratedMSBuildEditorConfig.editorconfig
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.AssemblyInfoInputs.cache
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.AssemblyInfo.cs
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.csproj.CoreCompileInputs.cache
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.dll
-E:\Source\mk.profantiy\mk.profanity\obj\Debug\netstandard2.1\mk.profanity.pdb
 E:\Source\mk.profanity\mk.profanity\bin\Debug\netstandard2.1\mk.profanity.deps.json
 E:\Source\mk.profanity\mk.profanity\bin\Debug\netstandard2.1\mk.profanity.dll
 E:\Source\mk.profanity\mk.profanity\bin\Debug\netstandard2.1\mk.profanity.pdb

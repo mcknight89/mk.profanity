@@ -1,3 +1,4 @@
+[![Unit Tests](https://github.com/mcknight89/mk.profanity/actions/workflows/tests.yml/badge.svg)](https://github.com/mcknight89/mk.profanity/actions/workflows/tests.yml)
 # mk.profanity 
 ## About
 mk.profanity is a powerful C# library designed to detect and censor profanities within text strings. This library provides several features, including text censorship, locating the position of bad words, setting custom bad word lists, appending words to the bad word list, and whitelisting words contained within the bad word list.

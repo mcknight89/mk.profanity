@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>mk.profanity</id>
+    <version>1.0.1</version>
+    <authors>Mike Knights</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>mk.profanity is a powerful C# library designed to detect and censor profanities within text strings. This library provides several features, including text censorship, locating the position of bad words, setting custom bad word lists, appending words to the bad word list, and whitelisting words contained within the bad word list.</description>
+    <repository type="git" url="https://github.com/mcknight89/mk.profanity" commit="731838db5595b80826d23e93c3cfc1eb94c9ae9d" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Source\mk.profanity\mk.profanity\bin\Release\netstandard2.1\mk.profanity.dll" target="lib\netstandard2.1\mk.profanity.dll" />
+  </files>
+</package>

@@ -6,7 +6,7 @@
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		
 		<PackageId>mk.profanity</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Mike Knights</Authors>
 		<PackageDescription>mk.profanity is a powerful C# library designed to detect and censor profanities within text strings. This library provides several features, including text censorship, locating the position of bad words, setting custom bad word lists, appending words to the bad word list, and whitelisting words contained within the bad word list.</PackageDescription>
 		<RepositoryUrl>https://github.com/mcknight89/mk.profanity</RepositoryUrl>

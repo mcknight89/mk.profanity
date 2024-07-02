@@ -1,0 +1,10 @@
+D:\Source\mk.profanity\mk.profanity\bin\Release\netstandard2.1\mk.profanity.deps.json
+D:\Source\mk.profanity\mk.profanity\bin\Release\netstandard2.1\mk.profanity.dll
+D:\Source\mk.profanity\mk.profanity\bin\Release\netstandard2.1\mk.profanity.pdb
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.AssemblyInfoInputs.cache
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.AssemblyInfo.cs
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.csproj.CoreCompileInputs.cache
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.sourcelink.json
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.dll
+D:\Source\mk.profanity\mk.profanity\obj\Release\netstandard2.1\mk.profanity.pdb

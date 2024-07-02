@@ -974,7 +974,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "mk.profanity/1.0.0": {
+      "mk.profanity/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
@@ -3957,7 +3957,7 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "mk.profanity/1.0.0": {
+    "mk.profanity/1.0.1": {
       "type": "project",
       "path": "../mk.profanity/mk.profanity.csproj",
       "msbuildProject": "../mk.profanity/mk.profanity.csproj"
@@ -3970,23 +3970,28 @@
       "NUnit.Analyzers >= 3.5.0",
       "NUnit3TestAdapter >= 4.3.0",
       "coverlet.collector >= 3.1.2",
-      "mk.profanity >= 1.0.0"
+      "mk.profanity >= 1.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mk\\.nuget\\packages\\": {}
+    "C:\\Users\\mk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\mk.profanity\\mk.profanity.tests\\mk.profanity.tests.csproj",
+      "projectUniqueName": "D:\\Source\\mk.profanity\\mk.profanity.tests\\mk.profanity.tests.csproj",
       "projectName": "mk.profanity.tests",
-      "projectPath": "E:\\Source\\mk.profanity\\mk.profanity.tests\\mk.profanity.tests.csproj",
+      "projectPath": "D:\\Source\\mk.profanity\\mk.profanity.tests\\mk.profanity.tests.csproj",
       "packagesPath": "C:\\Users\\mk\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\mk.profanity\\mk.profanity.tests\\obj\\",
+      "outputPath": "D:\\Source\\mk.profanity\\mk.profanity.tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\mk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3994,15 +3999,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "E:\\Source\\mage\\dotnet-local-packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Source\\mk.profanity\\mk.profanity\\mk.profanity.csproj": {
-              "projectPath": "E:\\Source\\mk.profanity\\mk.profanity\\mk.profanity.csproj"
+            "D:\\Source\\mk.profanity\\mk.profanity\\mk.profanity.csproj": {
+              "projectPath": "D:\\Source\\mk.profanity\\mk.profanity\\mk.profanity.csproj"
             }
           }
         }
@@ -4011,6 +4016,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4049,12 +4059,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

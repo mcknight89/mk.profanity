@@ -65,7 +65,16 @@ namespace mk.profanity.tests
             Assert.AreEqual("The quick brown **** jumps over the lazy horse", result);
         }
 
+        [Test]
+        public void CensorText_KeepFirstAndLastLetters()
+        {
+            var profanityFilter = new ProfanityFilter();
+            var text = "you fuck";
 
+            var result = profanityFilter.CensorText(text,'*',true);
+
+            Assert.AreEqual("you f**k", result);
+        }
 
         [Test]
         public void CensorText_DefaultWordTest_ReturnsCensoredText()

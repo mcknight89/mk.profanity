@@ -129,8 +129,10 @@ namespace mk.profanity
         /// Finds all occurrences of bad words in the input text and censors them
         /// </summary>
         /// <param name="text">The input text to search for bad words.</param>
+        /// <param name="censorCharacter">The character to use for censoring bad words.</param>
+        /// <param name="keepFirstAndLastLetters">Boolean value indicating if the first and last letters of the bad words should be kept uncensored.</param>
         /// <returns>A version of the text with all bad words censored</returns>
-        public string CensorText(string text, char censorCharacter = '*')
+        public string CensorText(string text, char censorCharacter = '*', bool keepFirstAndLastLetters = false)
         {
             // Find all bad words in the text
             var foundBadWords = FindProfanities(text);
@@ -147,6 +149,10 @@ namespace mk.profanity
 
                     for (int i = 0; i < length; i++)
                     {
+                        if (keepFirstAndLastLetters && (i == 0 || i == length - 1))
+                        {
+                            continue;
+                        }
                         censoredText[index + i] = censorCharacter;
                     }
                 }
@@ -156,7 +162,7 @@ namespace mk.profanity
         }
 
 
-        
+
         /// <summary>
         /// Checks if there are any bad words in the input tex
         /// </summary>
